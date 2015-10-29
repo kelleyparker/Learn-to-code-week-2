@@ -1,3 +1,6 @@
+****WORKED ON THIS PROJECT ON OCTOBER 28, 2015 @ BOX IN AUSTIN, TX AS PART OF MEETUP GROUP****
+
+
 # Learn-to-code-week-2
 
 Basic JavaScript and jQuery
