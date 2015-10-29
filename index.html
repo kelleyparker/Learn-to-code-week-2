@@ -3,6 +3,10 @@
   <head>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script>
+
+
+
+    var name = prompt("What is your name?")
     var userChoice = prompt("Do you choose rock, paper or scissors?");
     var computerChoice = Math.random();
 
@@ -19,34 +23,39 @@
               window.alert("The result is a tie!");
           } else if(userChoice ==="rock") {
             if (computerChoice==="scissors") {
-
-                window.alert("Rock wins!");
+                window.alert("Rock wins, congratulations " + name);
           } else {
-                window.alert("Paper wins");
+                window.alert(name + " wins");
               }
           }
           else if(userChoice==="paper") {
              if(computerChoice ==="rock") {
-                 window.alert("Paper wins!");
+                 window.alert("Paper wins, congratulations " + name);
              } else {
-                 window.alert("scissors wins!");
+                 window.alert(name + " wins");
              }
           }
 
           else if(userChoice==="scissors") {
-              if (computerChoice==="rock") {
-                  window.alert("Scissors wins!");
+              if (computerChoice==="paper") {
+                  window.alert("Scissors wins, congratulations " + name);
               } else {
-                  window.alert("scissors wins");
+                  window.alert(name + " wins");
               }
           }
       };
+
 
     </script>
   </head>
   <body>
     <div class="wrapper">
-      <button class="button" onclick="compare(userChoice, computerChoice);">LETS PLAY RPS!</button>
+      <p><font size=30>This app is brought to you by Jose and KP Enterprises</p></font>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <button class="button" onclick="compare(userChoice, computerChoice);"> LETS PLAY RPS! </button><br/><br/>
+      <button class="button" onClick="location.reload();"> PLAY AGAIN </button>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <p><font size=20>Copyright 2015</p></font>
     </div>
   </body>
 

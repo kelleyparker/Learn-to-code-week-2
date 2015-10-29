@@ -12,7 +12,7 @@
 
 
 html {
-  background: url("some_url_to_an_image") no-repeat center center fixed; 
+  background: url("http://beachgrooves.com/wp-content/uploads/2014/07/beach.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
